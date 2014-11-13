@@ -1,0 +1,23 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 0,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 1,
+    "engineDir":"../",
+
+    "modules" : ["cocos2d", "chipmunk"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/myApp.js",
+        "src/AnimaitonLayer.js",
+        "src/BackGround.js",
+        "src/PlayScene.js",
+        "src/globals.js",
+        "src/StatusLayer.js",
+        "src/ResultLayer.js"
+    ]
+}
